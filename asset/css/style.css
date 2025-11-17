@@ -1,6 +1,12 @@
 body{
-    padding: 0;
     box-sizing: border-box;
+}
+
+header{
+    text-align: center;
+    background-color: midnightblue;
+    position: sticky;
+    block-size: 100px;
 }
 
 main{
@@ -8,30 +14,37 @@ main{
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
 }
 
 div{
+        block-size: 500px;
+}
+div.SidebarG{
+    background-color: bisque;
+    justify-content: left;
     text-align: center;
+    flex-grow: 0.5;
+}
+
+div.SidebarD{
+    background-color: bisque;
+    justify-content: right;
+    text-align: center;
+    flex-grow: 0.5;
+    flex-wrap: wrap
+}
+
+div.content{
+    background-color: grey;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
     flex-grow: 1;
 }
 
-div.un{
-    background-color: rgb(11, 216, 216);
-}
-
-div.deux{
-    background-color: rgb(216, 11, 216);
-}
-
-div.trois{
-    background-color: rgb(216, 216, 11);
-}
-
-div.quatre{
-    background-color: rgb(11, 216, 11);
-}
-
-div.cinq{
-    background-color: rgb(11, 11, 216);
+footer{
+    background-color: antiquewhite;
+    text-align: center;
+    block-size: 100px;
 }
