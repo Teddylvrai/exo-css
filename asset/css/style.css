@@ -1,0 +1,37 @@
+body{
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+div{
+    text-align: center;
+    flex-grow: 1;
+}
+
+div.un{
+    background-color: rgb(11, 216, 216);
+}
+
+div.deux{
+    background-color: rgb(216, 11, 216);
+}
+
+div.trois{
+    background-color: rgb(216, 216, 11);
+}
+
+div.quatre{
+    background-color: rgb(11, 216, 11);
+}
+
+div.cinq{
+    background-color: rgb(11, 11, 216);
+}
